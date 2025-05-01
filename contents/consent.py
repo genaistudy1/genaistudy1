@@ -105,7 +105,7 @@ E-mail: irb@snu.ac.kr
         st.session_state["agree"] = True
     if consent == "Disagree":
         st.session_state["agree"] = False 
-        st.warning("You must agree to participate to proceed.")
+        st.warning("Thank you for your time. Please close this page and return the study on Prolific.")
 
 def thanks_page():
     st.title("Thank you!")
